@@ -62,7 +62,6 @@ const Table = () => {
       >
         Add User
       </button>
-
       <table
         style={{
           borderCollapse: "collapse",
@@ -109,7 +108,6 @@ const Table = () => {
           ))}
         </tbody>
       </table>
-
       {isModalOpen && (
         <div
           style={{
@@ -188,6 +186,7 @@ const Table = () => {
           </div>
         </div>
       )}
+      <h2 className="mt-4 text-2xl">this is button</h2>
     </div>
   );
 };
