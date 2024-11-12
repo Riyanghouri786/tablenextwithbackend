@@ -1,5 +1,5 @@
+import Table from "@/components/TableComponent";
 import React from "react";
-import Table from "./table/page";
 
 const page = () => {
   return (
