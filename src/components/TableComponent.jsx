@@ -140,6 +140,7 @@ const Table = () => {
                 value={newUser.name}
                 onChange={handleChange}
                 required
+                autoComplete="name"
                 style={{ padding: "10px", margin: "5px", width: "100%" }}
               />
               <input
@@ -149,6 +150,7 @@ const Table = () => {
                 value={newUser.email}
                 onChange={handleChange}
                 required
+                autoComplete="email"
                 style={{ padding: "10px", margin: "5px", width: "100%" }}
               />
               <input
@@ -158,8 +160,10 @@ const Table = () => {
                 value={newUser.password}
                 onChange={handleChange}
                 required
+                autoComplete="new-password"
                 style={{ padding: "10px", margin: "5px", width: "100%" }}
               />
+
               <button
                 type="submit"
                 style={{
